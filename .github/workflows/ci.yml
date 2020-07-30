@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Change Permission
+        run: chmod +777 ${{ github.workspace }}/reports
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v0.1
         env:
