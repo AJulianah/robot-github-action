@@ -24,3 +24,4 @@ jobs:
           BROWSER: chrome
           ROBOT_TESTS_DIR: ${{ github.workspace }}/
           ROBOT_REPORTS_DIR: ${{ github.workspace }}/reports
+          ROBOT_OPTIONS: -v URL:http://www.google.com
