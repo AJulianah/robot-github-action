@@ -1,6 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 
+
 *** Variables ***
 ${URL}     http://www.google.co.th
 
